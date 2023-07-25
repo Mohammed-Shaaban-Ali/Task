@@ -1,0 +1,108 @@
+:root {
+  --main-color: #589effb0
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+
+.edit {
+  font-size: 25px;
+  margin: auto 10px;
+  color: #2fff0c;
+
+}
+
+.delete {
+  font-size: 25px;
+  margin: auto 10px;
+  color: rgba(255, 0, 0, 0.775);
+
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.todo-dropdown {
+  outline: none;
+  background: none;
+  border: 1px solid var(--main-color);
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.todo-dropdown option {
+  background-color: #58f9ff7d;
+  color: black;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: var(--main-color);
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--main-color);
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  letter-spacing: 1.3px;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
