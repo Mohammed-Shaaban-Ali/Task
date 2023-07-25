@@ -48,6 +48,13 @@ h1 {
   width: 500px;
 }
 
+@media screen and (max-width: 500px) {
+  .TodoWrapper {
+    width: 90%;
+    margin: 5rem auto;
+  }
+}
+
 .TodoForm {
   width: 100%;
   margin-bottom: 50px;
